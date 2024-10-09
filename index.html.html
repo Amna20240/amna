@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<!-- main.html -->
+<!-- First HTML5 example. -->
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Q4 Answer</title>
+   </head>
+
+   <body>
+      
+        <h1>
+        Favorite Concert Location in Dubai
+        </h1>
+        <p>
+        
+        <form method = "post" action = "http://www.deitel.com">
+<input type = "hidden" name = "recipient"
+value = "http://www.deitel.com">
+<input type = "hidden" name = "subject"
+value = "Feedback Form">
+        
+        
+        <table>
+         
+          <tr>
+            <td>
+              <label for="email">Email:</label>                                                
+            </td>
+            <td><label>
+              <input email = "name" type = "text" size = "30" maxlingh = "35">
+            </label></td>
+          </tr>
+          <tr>
+            <td>
+              <lable for="phone">Phone Number:</lable>
+            </td>
+            <td>
+              <label>
+              <input name="phone" type="tel" id="phone" pattern="\+971-[0-9]{3}-[0-9]{7}" required placeholder="+971-XXX-XXXXXXX">
+              
+            </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="password">
+                Password:
+              </label>
+            </td>
+            <td><label>
+              <input name="password" type="password" id="password" size="30" maxlength="35" required>
+              </label></td>
+          </tr>
+          <tr>
+            <td><label for="location">
+              Favorite Concert Location:
+              </label></td>
+            <td><label>
+              <select name = "location">
+              <option selected>Burj Al Arab</option>
+              <option>Atlantis The Palm</option>
+              <option>Jumeirah Beach Hotel</option>
+              <option>Palace Downtown</option>
+              <option>Rose Rayhaan by Rotana</option>              
+              </select>
+              </label></td>
+          </tr>
+          <tr>
+          <td><label for="date">Date:</label></td>
+          <td>
+            <!-- Date input field -->
+            <input name="date" type="date" id="date" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="type">
+              Preferred Concert type:
+            </label>
+          </td>
+          <td>
+            <label>
+<input name = "type" type = "radio" value = "Indoor" checked>
+            Indoor</label>
+
+<label><input name = "type"type ="radio" value = "Outdoor">
+Outdoor</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Preferences">
+              Additional Preferences:
+            </label>
+          </td>
+          <td>
+            <label>  <input name = "Preferences"type = "checkbox"
+value = "VIP Access"> VIP Access</label>
+            <label> <input name = "Preferences"type = "checkbox"
+value = "Parking"> Parking</label>
+            <label> <input name = "Preferences"type = "checkbox"
+value = "Seating"> Seating </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="extra comments">
+              Extra Comments:
+            </label>
+          </td>
+          <td>
+            <label> <textarea name = "extra comments" rows =4 cols="36"> </textarea></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type = "submit" value = "Submit"></td>
+            <td>
+            <input type = "reset" value = "Reset">
+          </td>
+        </tr>
+             
+        
+        </table>
+      </form>
+      </p>
+   </body>
+</html>
